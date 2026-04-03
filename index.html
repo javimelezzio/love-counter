@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>javimelezzio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- FX layer (floating hearts / explosion effects) -->
+  <div id="fx-layer" aria-hidden="true"></div>
+
+  <!-- INTRO: Envelope + Letter -->
+  <div class="intro" id="intro">
+    <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Open letter">
+      <div class="env-flap"></div>
+      <div class="env-body"></div>
+      <div class="env-label" id="env-label">You</div>
+      <div class="hint" id="intro-hint">Click to open 💌</div>
+
+      <div class="letter-card" id="letter-card" aria-live="polite">
+        <div class="letter-hearts" aria-hidden="true"></div>
+
+        <div class="letter-title">For you</div>
+        <div class="letter-text">
+          I made this with love.<br />
+          Whenever you want, press <b>Continue</b> and the heart will appear.
+        </div>
+
+        <div class="letter-actions">
+          <button class="btn" id="continue-btn" type="button">Continue ❤</button>
+        </div>
+
+        <div class="letter-sign">— javimelezzio</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- APP (hidden at the beginning) -->
+  <main class="app hidden" id="app">
+    <div class="heart" id="heart" title="click">❤</div>
+    <div class="name" id="name-title">YOU</div>
+
+    <div class="frase-container" id="frase-container">I love you 💚</div>
+
+    <div class="contador" id="contador"></div>
+    <div class="tip">Click for more</div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
