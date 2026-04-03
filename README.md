@@ -1,4 +1,7 @@
 # javimelezzio – love-counter
+## Description
+This is a simple HTML/CSS/JavaScript project made by an amateur student.  
+It’s a small interactive “love letter” experience (envelope → letter → heart screen) created for learning and fun.
 
 Small HTML/CSS/JS project:
 - Envelope intro → letter → heart screen
