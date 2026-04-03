@@ -12,3 +12,9 @@ Just open `index.html` in a browser (or use VS Code Live Server).
 - Text: edit `index.html`
 - Styles/background: `styles.css`
 - Phrases + start date: `script.js` (`frases` array + `start` date in `actualizarContador()`)
+## Clone the project
+
+### 1) Clone with Git
+```bash
+git clone https://github.com/javimelezzio/love-counter.git
+cd love-counter
