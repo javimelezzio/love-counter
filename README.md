@@ -16,7 +16,7 @@ Just open `index.html` in a browser (or use VS Code Live Server).
 - Styles/background: `styles.css`
 - Phrases + start date: `script.js` (`frases` array + `start` date in `actualizarContador()`)
 ## Follow me
-Follow me on Instagram: **@melezzzio**
+Follow me on Instagram: **[@melezzzio](https://instagram.com/melezzzio)**
 
 ## Clone the project
 ### 1) Clone with Git
